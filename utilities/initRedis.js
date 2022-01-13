@@ -27,6 +27,6 @@ export async function createSong(data) {
 export async function getSongs() {
    await connect()
    const repository = new Repository(songSchema, client)
-   const songs = await repository.search().returnAll()
+   const songs = await repository.search().return.all()
    return songs
 }
