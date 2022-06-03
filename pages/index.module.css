@@ -1,0 +1,10 @@
+.indexPage {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 24px;
+}
+
+.indexPage a {
+    font-size: 12px;
+}

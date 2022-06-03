@@ -1,0 +1,11 @@
+.addSongPage {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 24px;
+}
+
+.field {
+    display: flex;
+    column-gap: 24px;
+}
