@@ -20,7 +20,7 @@ export async function getServerSideProps() {
    songs = songs.map(song => song.toJSON())
    return {
       props: {
-         songs,
+         songs
       }
    }
 }
